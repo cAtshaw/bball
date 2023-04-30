@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Basketball Counter</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+<body>
+     <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <p id="homescore">0</p>
+                <div>
+                    <button id="homeone" onclick="increaseHomeScoreOne()">+ 1</button>
+                    <button id="hometwo" onclick="increaseHomeScoreTwo()">+ 2</button> 
+                    <button id="homethree" onclick="increaseHomeScoreThree()">+ 3</button>
+                 </div>        
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <p id="guestscore">0</p>
+                <div>
+                    <button id="guestone" onclick="increaseGuestScoreOne()">+ 1</button>
+                    <button id="guesttwo" onclick="increaseGuestScoreTwo()">+ 2</button>
+                    <button id="guestthree" onclick="increaseGuestScoreThree()">+ 3</button>
+                </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

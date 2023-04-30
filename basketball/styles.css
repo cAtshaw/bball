@@ -1,0 +1,49 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 2px -2px 2px aquamarine;
+}
+
+.container {
+    display: flex;
+    direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: #4d4730;
+}
+
+#homescore {
+    font-size: 60px;
+    background-color: #498C8A;
+    color: red;
+    border-radius: 6px;
+    border: solid 2px #4d4730;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 30px 20px 25px 20px;
+    text-shadow: 0 0 8px black;                          
+}
+
+#guestscore {
+    font-size: 60px;
+    background-color: #498C8A;
+    color: red;
+    border-radius: 6px;
+    border: solid 2px #4d4730;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 30px 20px 25px 20px;
+    text-shadow: 0 0 8px black;            
+}
+
+#guestone, #guesttwo, #guestthree {
+    background-color: #89e0dd;
+    border-radius: 6px;
+}
+
+#homeone, #hometwo, #homethree {
+    background-color: #89e0dd;
+    border-radius: 6px;
+}
+
+
